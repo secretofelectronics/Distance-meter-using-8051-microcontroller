@@ -1,0 +1,5 @@
+avrdude -c arduino_as_isp -p 89s52 -P COM10 -b 19200 -U flash:w:led.hex:i
+
+
+avrdude -c arduino_as_isp -p 89s52 -P COM10 -b 19200 -e
+
